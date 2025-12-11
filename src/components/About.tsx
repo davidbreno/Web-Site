@@ -2,7 +2,7 @@ import { Award, MapPin, Phone, FileText } from 'lucide-react';
 
 export function About() {
   return (
-    <section id="about" className="py-0 bg-slate-800 relative overflow-hidden">
+    <section id="about" className="py-12 md:py-0 bg-slate-800 relative overflow-hidden">
       {/* Textura granulada discreta */}
       <div className="absolute inset-0 opacity-[0.03]">
         <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -27,11 +27,11 @@ export function About() {
               alt="Dr. David Breno Santos"
               loading="lazy"
               decoding="async"
-              className="rounded-lg w-full h-auto shadow-lg shadow-slate-900/40 transform transition-all duration-500 group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-blue-500/30"
+              className="rounded-lg w-full h-auto max-h-[500px] md:max-h-none object-cover md:object-contain shadow-lg shadow-slate-900/40 transform transition-all duration-500 group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-blue-500/30"
             />
           </div>
 
-          <div className="space-y-4 md:space-y-6 py-12 md:py-20">
+          <div className="space-y-4 md:space-y-6 py-6 md:py-20">
             <h2 className="text-white">
               <span className="text-rose-500">Dr. David Breno</span>
             </h2>
