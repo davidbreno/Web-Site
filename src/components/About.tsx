@@ -21,7 +21,7 @@ export function About() {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-0">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
-          <div className="relative group cursor-pointer flex items-end h-full md:-ml-12">
+          <div className="relative group overflow-hidden flex items-end h-full md:-ml-12">
             <img 
               src="/foto-sobre.jpg" 
               alt="Dr. David Breno Santos"
