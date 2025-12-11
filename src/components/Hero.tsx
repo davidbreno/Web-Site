@@ -35,13 +35,13 @@ export function Hero() {
       <div className="absolute top-40 right-20 w-64 h-64 bg-gradient-to-br from-blue-500/5 to-purple-500/5 rounded-full blur-2xl"></div>
       <div className="absolute bottom-40 left-20 w-80 h-80 bg-gradient-to-tr from-purple-500/5 to-rose-500/5 rounded-full blur-2xl"></div>
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative z-10 w-full">
-        <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div className="space-y-4 mb-12 md:mb-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 relative z-10 w-full">
+        <div className="grid md:grid-cols-2 gap-6 md:gap-8 items-center">
+          <div className="space-y-4 mb-8 md:mb-20">
             <img
               src={logoImage}
               alt="Dr. David Breno"
-              className="h-24 w-auto mb-4"
+              className="h-16 md:h-24 w-auto mb-4"
             />
             <p className="text-blue-400 tracking-wider">BEM-VINDO!</p>
             <h1 className="text-white">

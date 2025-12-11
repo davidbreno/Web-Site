@@ -20,8 +20,8 @@ export function About() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-rose-500/3 rounded-full blur-3xl"></div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-0">
-        <div className="grid md:grid-cols-2 gap-12 items-start">
-          <div className="relative group cursor-pointer flex items-end h-full" style={{ transform: 'translateX(-3cm)' }}>
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
+          <div className="relative group cursor-pointer flex items-end h-full md:-ml-12">
             <img 
               src="/foto-sobre.jpg" 
               alt="Dr. David Breno Santos"
@@ -30,7 +30,7 @@ export function About() {
             />
           </div>
 
-          <div className="space-y-6 py-20">
+          <div className="space-y-4 md:space-y-6 py-12 md:py-20">
             <h2 className="text-white">
               <span className="text-rose-500">Dr. David Breno</span>
             </h2>
