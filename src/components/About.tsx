@@ -26,6 +26,7 @@ export function About() {
               src="/foto-sobre.jpg" 
               alt="Dr. David Breno Santos"
               loading="lazy"
+              decoding="async"
               className="rounded-lg w-full h-auto shadow-lg shadow-slate-900/40 transform transition-all duration-500 group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-blue-500/30"
             />
           </div>

@@ -42,6 +42,8 @@ export function Hero() {
               src={logoImage}
               alt="Dr. David Breno"
               className="h-16 md:h-24 w-auto mb-4"
+              loading="eager"
+              decoding="async"
             />
             <p className="text-blue-400 tracking-wider">BEM-VINDO!</p>
             <h1 className="text-white">
@@ -100,6 +102,7 @@ export function Hero() {
                 src={doctorPhoto}
                 alt="Dr. David Breno"
                 loading="lazy"
+                decoding="async"
                 className="w-full max-w-md mx-auto object-contain"
               />
             </div>
